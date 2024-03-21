@@ -7,8 +7,8 @@ const page = () => {
     <section className="container xl:px-[70px] lg:my-[20px]">
       <div className="flex flex-col lg:flex-row justify-between gap-[30px] xl:gap-0">
         <div className="order-2 lg:order-1 flex flex-col gap-[10px] lg:w-[60%]">
-          <h1 className='font-bold text-3xl tracking-wide'>I'M A PRAGMATIC DESIGNER.</h1>
-          <h1 className='font-bold text-3xl tracking-wide'>I ALSO HAVE HIGH OUTPUT.</h1>
+          <h1 className='font-bold text-3xl tracking-wide'>I'M A HARD WORKING PERSON.</h1>
+          <h1 className='font-bold text-3xl tracking-wide'>I ALSO HAVE STRONG PASSION.</h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] mt-[20px]">
             <p className='text-[15px] text-gray-500'>Hallo, my name is Wisnu Shena Arrafi. I am a third year informatics engineering student at Surabaya State University. I studied in IT for 2 years and have interest in web development (frontend side) and cloud computing. I don't have a professional work history yet, but I do have experience contributing to the development of application projects.</p>
             <p className='text-[15px] text-gray-500'>I don't have any formal experience in the field of frontend development. Therefore, I am very open to job opportunities in this field. With a tenacious personality, hard work, easy communication, and being able to work in a team, I am confident in preparing myself to enter the world of the IT industry.</p>
