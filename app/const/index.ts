@@ -17,7 +17,7 @@ interface ProjectsItem {
   img: string
 }
 
-export const sideNavLinks:SideNavLinksItem[] = [
+export const sideNavLinks: SideNavLinksItem[] = [
   {
     label: 'Home',
     to: '/'
@@ -32,7 +32,7 @@ export const sideNavLinks:SideNavLinksItem[] = [
   },
   {
     label: 'Resume',
-    to: '#'
+    to: 'https://www.cakeresume.com/wisnu-shena'
   },
   {
     label: 'Contact',
@@ -40,7 +40,7 @@ export const sideNavLinks:SideNavLinksItem[] = [
   }
 ]
 
-export const experiences:ExperiencesItem[] = [
+export const experiences: ExperiencesItem[] = [
   {
     date: 'Agustus - Desember 2023',
     position: 'Web developer intern',
@@ -55,7 +55,7 @@ export const experiences:ExperiencesItem[] = [
   },
 ]
 
-export const projects:ProjectsItem[] = [
+export const projects: ProjectsItem[] = [
   {
     title: 'Airbnb Clone Website',
     desc: 'Cloning a website from Airbnb. This website was created using NextJS and Tailwind CSS for styling. The data from this website is static because it does not use the API provided by Airbnb or does not have an API that can display relevant data. This website is responsive so it can be used on various devices with different widths.',

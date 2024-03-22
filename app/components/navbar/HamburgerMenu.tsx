@@ -5,9 +5,9 @@ import { RxCross2 } from "react-icons/rx";
 import { IoMenu } from "react-icons/io5";
 import { sideNavLinks } from '@/app/const';
 
-const SideNavLink = ({label, link}:{label:string, link:string}) => {
+const SideNavLink = ({label, link, index}:{label:string, link:string, index:number}) => {
   return (
-    <Link href={link} className='text-lg pb-3 lg:pb-0 md:text-3xl font-bold text-gray-400 hover:text-black transition-all translate-x-0 hover:translate-x-3 duration-300 border-b lg:border-b-0'>{label}</Link>
+    <Link href={link} target={`${index === 3 && 'blank'}`} className='text-lg pb-3 lg:pb-0 md:text-3xl font-bold text-gray-400 hover:text-black transition-all translate-x-0 hover:translate-x-3 duration-300 border-b lg:border-b-0'>{label}</Link>
   )
 }
 
@@ -32,7 +32,7 @@ const HamburgerMenu = () => {
           {
             sideNavLinks.map((item, idx) => {
               return (
-                <SideNavLink label={item.label} link={item.to} key={idx}/>
+                <SideNavLink label={item.label} link={item.to} key={idx} index={idx}/>
               )
             })
           }
@@ -46,7 +46,7 @@ const HamburgerMenu = () => {
           {
             sideNavLinks.map((item, idx) => {
               return (
-                <SideNavLink label={item.label} link={item.to} key={idx}/>
+                <SideNavLink label={item.label} link={item.to} key={idx} index={idx}/>
               )
             })
           }
