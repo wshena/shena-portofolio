@@ -9,10 +9,6 @@ const Landing = () => {
     nextSection?.scrollIntoView({ behavior: 'smooth' });
   }
 
-  useEffect(() => {
-    scrollDown();
-  }, [])
-
   return (
     <div className="relative flex flex-col lg:flex-row items-center justify-between gap-[20px] lg:gap-0 xl:px-[70px]">
       <div className="lg:w-[40vw]">

@@ -5,21 +5,17 @@ import { RxCross2 } from "react-icons/rx";
 import { IoMenu } from "react-icons/io5";
 import { sideNavLinks } from '@/app/const';
 
-const SideNavLink = ({label, link, index}:{label:string, link:string, index:number}) => {
+const SideNavLink = ({label, link}:{label:string, link:string, index:number}) => {
   return (
-    <Link href={link} target={`${index === 3 && 'blank'}`} className='text-lg pb-3 lg:pb-0 md:text-3xl font-bold text-gray-400 hover:text-black transition-all translate-x-0 hover:translate-x-3 duration-300 border-b lg:border-b-0'>{label}</Link>
+    <Link href={link} className='text-lg pb-3 lg:pb-0 md:text-3xl font-bold text-gray-400 hover:text-black transition-all translate-x-0 hover:translate-x-3 duration-300 border-b lg:border-b-0'>{label}</Link>
   )
 }
 
 const HamburgerMenu = () => {
-  const [isClick, setIsClick] = useState(false);
+  const [isClick, setIsClick] = useState(true);
   const handleClick = () => {
     setIsClick(!isClick);
   }
-
-  useEffect(() => {
-    handleClick()
-  }, [])
 
   return (
     <>

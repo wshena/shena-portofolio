@@ -27,7 +27,7 @@ export const sideNavLinks: SideNavLinksItem[] = [
     to: '/about'
   },
   {
-    label: 'Project',
+    label: 'Projects',
     to: '/projects'
   },
   {
@@ -57,16 +57,10 @@ export const experiences: ExperiencesItem[] = [
 
 export const projects: ProjectsItem[] = [
   {
-    title: 'Airbnb Clone Website',
-    desc: 'Cloning a website from Airbnb. This website was created using NextJS and Tailwind CSS for styling. The data from this website is static because it does not use the API provided by Airbnb or does not have an API that can display relevant data. This website is responsive so it can be used on various devices with different widths.',
-    link: 'https://airbnb-clone-psi-vert.vercel.app/',
-    img: '/airbnb_clone.png'
-  },
-  {
-    title: 'Space Tourism Website',
-    desc: 'This website project is a project challenge provided by the frontend mentor website. This website was created using Vite with the framework used is ReactJS, for styling the website using Tailwind CSS, and routing using React Router. The data on this website is static as provided by the frontend mentor.',
-    link: 'https://space-tourism-website-henna.vercel.app/',
-    img: '/space_tourism.png'
+    title: 'Valorant Clone Website',
+    desc: 'Cloning a website from playvalorant.com. This website was created using NextJS and Tailwind CSS for styling. The data used for this website is taken from public api. This website is responsive so it can be used on various devices with different widths.',
+    link: 'https://valorant-website-clone-two.vercel.app/',
+    img: '/valorant.png'
   },
   {
     title: 'Anime Paradise',
@@ -75,10 +69,16 @@ export const projects: ProjectsItem[] = [
     img: '/anime_paradise.png'
   },
   {
-    title: 'People Care Hospital Company Profile',
-    desc: 'People Care Hospital is a company profile website that displays information about the hospital. The hospital used as data is a fictitious hospital that has nothing to do with the real hospital. The data displayed is static. This website was created using NextJS with the help of Bootstrap for website styling.',
-    link: 'https://people-care-hospital-company-profile-website.vercel.app/',
-    img: '/people_care.png'
+    title: 'Airbnb Clone Website',
+    desc: 'Cloning a website from Airbnb. This website was created using NextJS and Tailwind CSS for styling. The data from this website is static because it does not use the API provided by Airbnb or does not have an API that can display relevant data. This website is responsive so it can be used on various devices with different widths.',
+    link: 'https://airbnb-clone-psi-vert.vercel.app/',
+    img: '/airbnb_clone.png'
+  },
+  {
+    title: 'Studio Ghibli Website',
+    desc: 'This website is a website that displays data related to films from Studio Ghibli. This website was created with Nextjs and Tailwind CSS for styling. The data displayed on this website is taken from the public api. Apart from that, this website is also responsive so it can be used on all devices.',
+    link: 'https://ghibli-website.vercel.app/',
+    img: '/ghibli.png'
   },
   {
     title: 'Pokeapp',
