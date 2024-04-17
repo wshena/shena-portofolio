@@ -63,6 +63,12 @@ export const projects: ProjectsItem[] = [
     img: '/valorant.png'
   },
   {
+    title: 'Arknights Clone Website',
+    desc: 'This website is a website that takes inspiration from the official Arknights website, you could say this website is a clone of my version of that website. Created using Nextjs and Tailwind CSS for styling. Data from the website is taken from the public API. The main feature of this website is detailed information about the operators in the Arknights game. This website is responsive, so it can be used on various devices with different widths.',
+    link: 'https://arknights-website-clone.vercel.app/',
+    img: '/arknights.png'
+  },
+  {
     title: 'Anime Paradise',
     desc: 'Taking inspiration from crunchyroll and myanimelist. The anime paradise website is a website that displays information related to anime and anime. This website was created using Vite with the ReactJS framework. This website uses dynamic data retrieved using Axios via the API provided by Jikan API. This website provides information such as top anime and top manga, anime and manga recommendations, and specific detailed information about anime or manga. This website is responsive so it can be used by devices of different widths',
     link: 'https://anime-paradise.vercel.app/',
