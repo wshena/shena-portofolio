@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect } from 'react'
+import React from 'react'
 import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -18,7 +18,7 @@ const Landing = () => {
       </div>
 
       <div className="">
-        <Image src='/Wisnu.jpg' alt="photo-profile" height={450} width={450} loading='lazy' />
+        <Image src='/Wisnu.jpg' alt="photo-profile" height={450} width={450} loading='lazy' className='w-[450px] h-[300px] md:h-[450px]' />
       </div>
 
       <div className="hidden absolute left-0 bottom-0 z-20 w-[100%] lg:flex items-center justify-center">
