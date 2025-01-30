@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { RxCross2 } from "react-icons/rx";
 import { IoMenu } from "react-icons/io5";
-import { sideNavLinks } from '@/app/const';
+import { sideNavLinks } from '@/app/utils/const';
 
 interface Props {
   label:string;
@@ -13,7 +13,13 @@ interface Props {
 
 const SideNavLink = ({click, label, link}:Props) => {
   return (
-    <Link onClick={click} href={link} className='text-lg pb-3 lg:pb-0 md:text-3xl font-bold text-gray-400 hover:text-black transition-all translate-x-0 hover:translate-x-3 duration-300 border-b lg:border-b-0'>{label}</Link>
+    <>
+    {label === 'Resume' ? (
+      <Link target='blank' onClick={click} href={link} className='text-lg pb-3 lg:pb-0 md:text-3xl font-bold text-gray-400 hover:text-black transition-all translate-x-0 hover:translate-x-3 duration-300 border-b lg:border-b-0'>{label}</Link>
+    ) : (
+      <Link onClick={click} href={link} className='text-lg pb-3 lg:pb-0 md:text-3xl font-bold text-gray-400 hover:text-black transition-all translate-x-0 hover:translate-x-3 duration-300 border-b lg:border-b-0'>{label}</Link>
+    )}
+    </>
   )
 }
 
@@ -26,8 +32,6 @@ const HamburgerMenu = () => {
   const handleClick = () => {
     setIsClick(!isClick);
   }
-
-  console.log(isClick)
 
   return (
     <>

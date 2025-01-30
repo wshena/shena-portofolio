@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import { sideNavLinks } from '../const'
+import { sideNavLinks } from '../utils/const'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FaLocationDot, FaFacebookF } from "react-icons/fa6";

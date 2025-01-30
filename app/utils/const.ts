@@ -32,7 +32,7 @@ export const sideNavLinks: SideNavLinksItem[] = [
   },
   {
     label: 'Resume',
-    to: 'https://www.cakeresume.com/wisnu-shena'
+    to: 'https://www.cake.me/wisnu-shena'
   },
   {
     label: 'Contact',
@@ -57,16 +57,16 @@ export const experiences: ExperiencesItem[] = [
 
 export const projects: ProjectsItem[] = [
   {
-    title: 'Valorant Clone Website',
-    desc: 'Cloning a website from playvalorant.com. This website was created using NextJS and Tailwind CSS for styling. The data used for this website is taken from public api. This website is responsive so it can be used on various devices with different widths.',
-    link: 'https://valorant-website-clone-two.vercel.app/',
-    img: '/valorant.png'
+    title: 'Mangaice',
+    desc: 'Mangaice is a website where anybody can read their favourite manga, manhwa, or manhua for free. In this website, user can search spesific manga, add to their library, configure website setting for personal taste, and more. This website is create using Next.js, Tailwind CSS, and Axios. Data being provided in this website are taken from Mangadex api. This website is take inspiration from Mangadex, so you can expect a lot of feature like Mangadex',
+    link: 'https://mangaice-context-api.vercel.app/',
+    img: '/mangaice-home-page.png'
   },
   {
-    title: 'Arknights Clone Website',
-    desc: 'This website is a website that takes inspiration from the official Arknights website, you could say this website is a clone of my version of that website. Created using Nextjs and Tailwind CSS for styling. Data from the website is taken from the public API. The main feature of this website is detailed information about the operators in the Arknights game. This website is responsive, so it can be used on various devices with different widths.',
+    title: 'Arknights Website Clone',
+    desc: 'This is a website that takes inspiration from the official Arknights website, you could say this website is a clone of my version of that website. Created using Nextjs and Tailwind CSS for styling. Data from the website is taken from the public API. The main feature of this website is detailed information about the operators in the Arknights game. This website is responsive, so it can be used on various devices with different widths.',
     link: 'https://arknights-website-clone.vercel.app/',
-    img: '/arknights.png'
+    img: '/arknights-index-page.png'
   },
   {
     title: 'Anime Paradise',
@@ -81,15 +81,9 @@ export const projects: ProjectsItem[] = [
     img: '/airbnb_clone.png'
   },
   {
-    title: 'Studio Ghibli Website',
-    desc: 'This website is a website that displays data related to films from Studio Ghibli. This website was created with Nextjs and Tailwind CSS for styling. The data displayed on this website is taken from the public api. Apart from that, this website is also responsive so it can be used on all devices.',
-    link: 'https://ghibli-website.vercel.app/',
-    img: '/ghibli.png'
-  },
-  {
-    title: 'Pokeapp',
-    desc: 'This is a website that takes inspiration from Pokedex. This website displays information about Pokemon in general. The data displayed is dynamic, taken from the poke API using axios. This website was created using Vite with the framework used, namely ReactJS with the help of Tailwind for styling. This website is responsive so it can be used on devices of different widths.',
-    link: 'https://pokeapp-tau-three.vercel.app/',
-    img: '/poke_app.png'
+    title: 'Poke TCG Hub',
+    desc: 'PokeTCGHub is a website providing informations about Pokemon TCG, so there will be a lot of infos about cards, decks, etc. There are also deck building feature in this website, user can use this feature for preparation or inspiration for building their powerfull deck. There is also advance search card feature so user can search a spesific card with detail. This website made using Next.js, Tailwind CSS, and Axios.',
+    link: 'https://pokemon-tcg-hub.vercel.app/',
+    img: '/pokemon-tcg-homepage.png'
   },
 ]

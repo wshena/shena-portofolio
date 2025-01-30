@@ -1,7 +1,7 @@
 import React from 'react'
-import { projects } from '../const'
 import Image from 'next/image'
 import Link from 'next/link'
+import { projects } from '../utils/const'
 
 const Projects = ({ className } : { className:string }) => {
   return (

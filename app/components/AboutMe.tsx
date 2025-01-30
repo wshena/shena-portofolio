@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { experiences } from '../const'
+import { experiences } from '../utils/const'
 
 const Experience = ({date, position, at, desc}:{date:string, position:string, at:string, desc:string}) => {
   return (
