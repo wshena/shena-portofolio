@@ -57,6 +57,12 @@ export const experiences: ExperiencesItem[] = [
 
 export const projects: ProjectsItem[] = [
   {
+    title: 'Anime Paradise',
+    desc: 'Taking inspiration from crunchyroll and myanimelist. The anime paradise website is a website that displays information related to anime and anime. This website was created using NextJS framework and Supabase. This website uses dynamic data retrieved using Axios via the API provided by Jikan API. This website provides information regarding anime, anime recommendations, and specific detailed information about anime. This website is responsive so it can be used by devices of different widths',
+    link: 'https://anime-paradise.vercel.app/',
+    img: '/anime-paradise.png'
+  },
+  {
     title: 'Mangaice',
     desc: 'Mangaice is a website where anybody can read their favourite manga, manhwa, or manhua for free. In this website, user can search spesific manga, add to their library, configure website setting for personal taste, and more. This website is create using Next.js, Tailwind CSS, and Axios. Data being provided in this website are taken from Mangadex api. This website is take inspiration from Mangadex, so you can expect a lot of feature like Mangadex',
     link: 'https://mangaice-context-api.vercel.app/',
@@ -85,18 +91,6 @@ export const projects: ProjectsItem[] = [
     desc: 'This is a website that takes inspiration from the official Valorant website, you could say this website is a clone of my version of that website. Created using Nextjs and Tailwind CSS for styling. Data from the website is taken from the public API. This website is responsive, so it can be used on various devices with different widths.',
     link: 'https://valorant-website-clone-tawny.vercel.app/',
     img: '/valorant_new.png'
-  },
-  {
-    title: 'Anime Paradise',
-    desc: 'Taking inspiration from crunchyroll and myanimelist. The anime paradise website is a website that displays information related to anime and anime. This website was created using Vite with the ReactJS framework. This website uses dynamic data retrieved using Axios via the API provided by Jikan API. This website provides information such as top anime and top manga, anime and manga recommendations, and specific detailed information about anime or manga. This website is responsive so it can be used by devices of different widths',
-    link: 'https://anime-paradise.vercel.app/',
-    img: '/anime_paradise.png'
-  },
-  {
-    title: 'Airbnb Clone Website',
-    desc: 'Cloning a website from Airbnb. This website was created using NextJS and Tailwind CSS for styling. The data from this website is static because it does not use the API provided by Airbnb or does not have an API that can display relevant data. This website is responsive so it can be used on various devices with different widths.',
-    link: 'https://airbnb-clone-psi-vert.vercel.app/',
-    img: '/airbnb_clone.png'
   },
   {
     title: 'Poke TCG Hub',
