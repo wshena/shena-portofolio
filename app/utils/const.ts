@@ -69,21 +69,15 @@ export const projects: ProjectsItem[] = [
     img: '/mangaice-home-page.png'
   },
   {
-    title: 'Arknights Website Clone',
-    desc: 'This is a website that takes inspiration from the official Arknights website, you could say this website is a clone of my version of that website. Created using Nextjs and Tailwind CSS for styling. Data from the website is taken from the public API. The main feature of this website is detailed information about the operators in the Arknights game. This website is responsive, so it can be used on various devices with different widths.',
-    link: 'https://arknights-website-clone.vercel.app/',
-    img: '/arknights-index-page.png'
-  },
-  {
     title: 'Kukus (on-development)',
     desc: 'Kukus is a website that displays information about games. This website is inspired by the epic game store. Kukus provides information about games from various platforms. This website is developed using Next.js, Tailwind, and Supabase for databases and authentication. Data from this website is taken from the RAWG API',
     link: '#',
     img: '/kukus.png'
   },
   {
-    title: 'Tokonyadia (on-development)',
+    title: 'Tokonyadia',
     desc: 'Tokonyadia is an e-commerce website that takes inspiration from Tokopedia. Like an e-commerce website, this website provides various features such as product search, product filters, etc. This website was developed using Next.js, Tailwind, and Supabase for auth and database.',
-    link: '#',
+    link: 'https://tokonyadia-sage.vercel.app/',
     img: '/tokonyadia-prettier.png'
   },
   {
@@ -91,6 +85,12 @@ export const projects: ProjectsItem[] = [
     desc: 'This is a website that takes inspiration from the official Valorant website, you could say this website is a clone of my version of that website. Created using Nextjs and Tailwind CSS for styling. Data from the website is taken from the public API. This website is responsive, so it can be used on various devices with different widths.',
     link: 'https://valorant-website-clone-tawny.vercel.app/',
     img: '/valorant_new.png'
+  },
+  {
+    title: 'Arknights Website Clone',
+    desc: 'This is a website that takes inspiration from the official Arknights website, you could say this website is a clone of my version of that website. Created using Nextjs and Tailwind CSS for styling. Data from the website is taken from the public API. The main feature of this website is detailed information about the operators in the Arknights game. This website is responsive, so it can be used on various devices with different widths.',
+    link: 'https://arknights-website-clone.vercel.app/',
+    img: '/arknights-index-page.png'
   },
   {
     title: 'Poke TCG Hub',
