@@ -69,9 +69,9 @@ export const projects: ProjectsItem[] = [
     img: '/mangaice-home-page.png'
   },
   {
-    title: 'Kukus (on-development)',
+    title: 'Kukus',
     desc: 'Kukus is a website that displays information about games. This website is inspired by the epic game store. Kukus provides information about games from various platforms. This website is developed using Next.js, Tailwind, and Supabase for databases and authentication. Data from this website is taken from the RAWG API',
-    link: '#',
+    link: 'https://kukus.vercel.app/',
     img: '/kukus.png'
   },
   {
