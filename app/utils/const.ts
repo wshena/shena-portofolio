@@ -57,6 +57,12 @@ export const experiences: ExperiencesItem[] = [
 
 export const projects: ProjectsItem[] = [
   {
+    title: 'AskNova',
+    desc: 'AskNova is a project that implements AI in it. This project is a cloning project for AI websites such as chatgpt, gemini, and deepseek. The API used is taken from the google gemini API. Using Next.js for the frontend and backend, and shadcn for styling.',
+    link: 'https://ask-nova-iota.vercel.app/',
+    img: '/askNova.png'
+  },
+  {
     title: 'Anime Paradise',
     desc: 'Taking inspiration from crunchyroll and myanimelist. The anime paradise website is a website that displays information related to anime and anime. This website was created using NextJS framework and Supabase. This website uses dynamic data retrieved using Axios via the API provided by Jikan API. This website provides information regarding anime, anime recommendations, and specific detailed information about anime. This website is responsive so it can be used by devices of different widths',
     link: 'https://anime-paradise.vercel.app/',
