@@ -53,15 +53,18 @@ const HamburgerMenu = () => {
       {/* Desktop */}
 
       {/* Mobile */}
-      <div className={`absolute block lg:hidden left-0 w-[100vw] h-[100vh] bg-white z-10 p-[20px] transition-all duration-700 ${isClick ? 'top-[71px] md:top-[113px]' : '-top-[1000px]'}`}>
-        <div className="flex flex-col gap-[20px]">
-          {
-            sideNavLinks.map((item, idx) => {
-              return (
-                <SideNavLink click={handleOffClick} label={item.label} link={item.to} key={idx} />
-              )
-            })
-          }
+      <div className={`fixed block lg:hidden left-0 w-[100vw] h-[100vh] bg-white z-10 p-[20px] transition-all duration-700 ${isClick ? 'top-0' : '-top-[1000px]'}`}>
+        <div className="space-y-10">
+          <button className='flex w-full justify-end' onClick={handleOffClick}> <RxCross2 size={30}/> </button>
+          <div className="flex flex-col gap-[20px]">
+            {
+              sideNavLinks.map((item, idx) => {
+                return (
+                  <SideNavLink click={handleOffClick} label={item.label} link={item.to} key={idx} />
+                )
+              })
+            }
+          </div>
         </div>
       </div>
       {/* Mobile */}
