@@ -3,7 +3,7 @@ import ContentContainer from "./ContentContainer";
 
 const MainContainer = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <div className="min-h-screen w-screen bg-white">
       <ContentContainer>{children}</ContentContainer>{" "}
     </div>
   );
