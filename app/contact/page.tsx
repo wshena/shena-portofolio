@@ -3,10 +3,10 @@ import { IoMdSend } from "react-icons/io";
 
 const page = () => {
   return (
-    <section className="container py-7.5 lg:py-0 xl:px-17.5 flex items-center lg:items-start lg:justify-between lg:gap-5 xl:gap-0">
+    <section className="py-40 lg:mb-5 px-5 md:px-6 lg:px-7 xl:px-15 flex items-center lg:items-start lg:justify-between lg:gap-5 xl:gap-0 text-black">
       <div className="h-screen w-screen lg:w-[50%] lg:flex items-center lg:justify-between">
         <div className="flex flex-col gap-10">
-          <h1 className="text-3xl lg:text-4xl uppercase font-bold tracking-widest">
+          <h1 className="text-3xl lg:text-4xl uppercase font-bold tracking-widest text-black">
             Contact Me
           </h1>
           <form action="" className="flex flex-col gap-10">
@@ -17,7 +17,7 @@ const page = () => {
                 id="name"
                 placeholder="NAME"
                 autoComplete="off"
-                className="focus:outline-none pb-2.5 border-b w-full"
+                className="text-black focus:outline-none pb-2.5 border-b w-full"
               />
               <input
                 type="email"
@@ -25,7 +25,7 @@ const page = () => {
                 id="email"
                 placeholder="YOUR EMAIL"
                 autoComplete="off"
-                className="focus:outline-none pb-2.5 border-b w-full"
+                className="text-black focus:outline-none pb-2.5 border-b w-full"
               />
             </div>
             <input
