@@ -1,13 +1,9 @@
-import AboutMe from "./components/AboutMe";
-import Landing from "./components/Landing";
-import Projects from './components/Projects';
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
-      <Landing />
-      <AboutMe />
-      <Projects className="container xl:px-[70px] my-[80px]"/>
-    </>
+    <main className="">
+      <h1>hello</h1>
+    </main>
   );
 }
